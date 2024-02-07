@@ -31,4 +31,22 @@ public class SceneControler {
 		stage.show();
 		
 	}
+	
+	public void switchToDashboardScreen(ActionEvent event) throws IOException {
+		root = FXMLLoader.load(getClass().getResource("Dashboard.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+		
+	}
+	
+	public void switchToProfileScreen(ActionEvent event) throws IOException {
+		root = FXMLLoader.load(getClass().getResource("ProfileScreen.fxml"));
+		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
+		scene = new Scene(root);
+		stage.setScene(scene);
+		stage.show();
+		
+	}
 }
