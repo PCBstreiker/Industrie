@@ -7,35 +7,35 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="960.0" prefWidth="1440.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneControler">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneControler">
    <children>
-      <TextField layoutX="564.0" layoutY="245.0" prefHeight="53.0" prefWidth="312.0" style="-fx-background-color: #D9D9D9;" />
-      <TextField layoutX="564.0" layoutY="366.0" prefHeight="53.0" prefWidth="312.0" style="-fx-background-color: #D9D9D9;" />
-      <Text layoutX="527.0" layoutY="133.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrierung">
+      <TextField layoutX="505.0" layoutY="213.0" prefHeight="53.0" prefWidth="312.0" style="-fx-background-color: #D9D9D9;" />
+      <TextField layoutX="505.0" layoutY="335.0" prefHeight="53.0" prefWidth="312.0" style="-fx-background-color: #D9D9D9;" />
+      <Text layoutX="468.0" layoutY="123.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Registrierung">
          <font>
             <Font name="System Bold" size="60.0" />
          </font>
       </Text>
-      <Text layoutX="564.0" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passwort">
+      <Text layoutX="505.0" layoutY="451.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Passwort">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="564.0" layoutY="359.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benutzername">
+      <Text layoutX="505.0" layoutY="328.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Benutzername">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Text layoutX="564.0" layoutY="238.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-Mail" wrappingWidth="50.34375">
+      <Text layoutX="505.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-Mail" wrappingWidth="50.34375">
          <font>
             <Font size="18.0" />
          </font>
       </Text>
-      <Button layoutX="564.0" layoutY="617.0" mnemonicParsing="false" onAction="#switchToLoginScreen" prefHeight="63.0" prefWidth="312.0" style="-fx-background-color: #3A9EE7;" text="Registrieren" textFill="WHITE">
+      <Button layoutX="503.0" layoutY="569.0" mnemonicParsing="false" onAction="#switchToLoginScreen" prefHeight="63.0" prefWidth="312.0" style="-fx-background-color: #3A9EE7;" text="Registrieren" textFill="WHITE">
          <font>
             <Font name="System Bold" size="23.0" />
          </font>
       </Button>
-      <PasswordField layoutX="562.0" layoutY="485.0" prefHeight="53.0" prefWidth="312.0" style="-fx-background-color: #D9D9D9;" />
+      <PasswordField layoutX="503.0" layoutY="456.0" prefHeight="53.0" prefWidth="312.0" style="-fx-background-color: #D9D9D9;" />
    </children>
 </AnchorPane>
