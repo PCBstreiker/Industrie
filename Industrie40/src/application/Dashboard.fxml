@@ -63,24 +63,19 @@
             <Font size="18.0" />
          </font>
       </Label>
-      <Text layoutX="285.0" layoutY="136.1357421875" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" wrappingWidth="167.47003173828125">
+      <Text layoutX="515.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Dashboard" wrappingWidth="291.47003173828125">
          <font>
-            <Font size="27.0" />
+            <Font name="System Bold" size="40.0" />
          </font>
       </Text>
-      <ChoiceBox layoutX="286.0" layoutY="183.0" prefWidth="150.0">
+      <ChoiceBox fx:id="dropDownListe" layoutX="297.0" layoutY="602.0" prefWidth="150.0">
       </ChoiceBox>
-      <Label layoutX="283.3333333333333" layoutY="248.0" prefHeight="45.0" prefWidth="275.0" text="StationName" wrapText="true">
+      <Label fx:id="LabelStation" layoutX="286.0" layoutY="98.0" prefHeight="45.0" prefWidth="466.0" text="StationName" wrapText="true">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <Label layoutX="286.0" layoutY="353.0" prefHeight="45.0" prefWidth="275.0" text="GrafikBeschreibung" wrapText="true">
-         <font>
-            <Font name="System Bold" size="28.0" />
-         </font>
-      </Label>
-      <BarChart layoutX="259.0" layoutY="402.0" prefHeight="269.0" prefWidth="915.0" title="Füllstände tt.mm.yyyy">
+      <BarChart fx:id="barchartDisplay" layoutX="253.0" layoutY="165.0" prefHeight="419.0" prefWidth="915.0" title="Füllstände tt.mm.yyyy">
         <xAxis>
           <CategoryAxis prefHeight="0.0" prefWidth="897.0" side="BOTTOM" />
         </xAxis>
@@ -88,16 +83,12 @@
           <NumberAxis side="LEFT" />
         </yAxis>
       </BarChart>
-      <Button layoutX="1096.0" layoutY="337.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="125.0" style="-fx-background-color: #F1F2F7;" text="Zeitraum ändern" textFill="#5a67ba">
-         <font>
-            <Font size="13.0" />
-         </font>
-      </Button>
       <ImageView fitHeight="36.0" fitWidth="33.0" layoutX="1197.0" layoutY="23.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Ressourcen/glocke.png" />
          </image>
       </ImageView>
       <Button layoutX="1199.0" layoutY="22.0" mnemonicParsing="false" onAction="#switchToNotificationScreen" opacity="0.0" prefHeight="36.0" prefWidth="33.0" style="-fx-background-radius: 0; -fx-background-color: white;" />
+      <ChoiceBox fx:id="dropDownZeiten" layoutX="1005.0" layoutY="601.0" prefWidth="150.0" />
    </children>
 </AnchorPane>
